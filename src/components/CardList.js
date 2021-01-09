@@ -5,7 +5,6 @@ function CardList({ robots }) {
     return (
       <Card
         key={i}
-        lazy="true"
         id={robots[i].id}
         name={robots[i].name}
         email={robots[i].email}
@@ -13,9 +12,7 @@ function CardList({ robots }) {
     );
   });
   return (
-    <main className="mw5 mw7-ns center pa3">
-      {CardComponent}
-      {CardComponent}
+    <main className="pa3">
       {CardComponent}
     </main>
   );
