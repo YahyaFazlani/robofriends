@@ -11,11 +11,7 @@ function CardList({ robots }) {
       />
     );
   });
-  return (
-    <main className="pa3">
-      {CardComponent}
-    </main>
-  );
+  return <main className="pa3">{CardComponent}</main>;
 }
 
 export default CardList;
